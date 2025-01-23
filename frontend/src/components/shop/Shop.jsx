@@ -44,8 +44,8 @@ export default function Shop() {
 
   function handleSort(e) {
     const value = e.target.value;
-    if (value == "name") {
-      setData([...data].toSorted((a, b) => a.title.localeCompare(b.title)));
+    if (value == "price") {
+      setData([...data].toSorted((a, b) => a.price - b.price));
     } else {
       setData([...tempData]);
     }
@@ -73,7 +73,7 @@ export default function Shop() {
           onChange={(e) => handleSort(e)}
         >
           <option value="default">Default</option>
-          <option value="name">Sort by name</option>
+          <option value="price">Sort by price</option>
         </select>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 items-center my-10">
