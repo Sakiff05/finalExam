@@ -38,6 +38,7 @@ export default function Favorites() {
             <div
               className="card cursor-pointer"
               onClick={() => navigate(`details/${item._id}`)}
+              key={item._id}
             >
               <div className="img rounded-md overflow-hidden">
                 <img src={item.img} alt="" className="w-full" />
