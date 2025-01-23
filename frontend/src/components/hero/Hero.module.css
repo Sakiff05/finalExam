@@ -1,0 +1,50 @@
+.hero {
+  background: url("https://rivon-demo.myshopify.com/cdn/shop/files/hero-image-size-1-2.png?v=1734416972&width=3840");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-block: 25rem;
+  border-radius: 20px;
+}
+
+.container {
+  padding-inline: 4rem;
+}
+.content {
+  padding-inline: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content span {
+  font-size: 1.5rem;
+}
+
+.content h1 {
+  font-size: 4rem;
+}
+
+.content p {
+  font-size: 1rem;
+}
+
+.content button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .container,
+  .content {
+    padding-inline: 0;
+  }
+  .content h1 {
+    font-size: 2rem;
+  }
+}

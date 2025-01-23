@@ -1,0 +1,13 @@
+.card {
+  background: url("https://rivon-demo.myshopify.com/cdn/shop/files/banner-1.png?v=1733829134&width=1100");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card2 {
+  background: url("https://rivon-demo.myshopify.com/cdn/shop/files/banner-2.png?v=1733829134&width=1100");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
